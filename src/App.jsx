@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import Mainall from './pages/Main/Mainall';
-
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Mainall />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Mainall />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
