@@ -3,9 +3,9 @@ import useInView from './useInView';
 
 const Main1 = () => {
   const images = [
-    '/images/main/main1.png',
-    '/images/main/main2.png',
-    '/images/main/main3.png',
+    '/assets/images/main/main1.png',
+    '/assets/images/main/main2.png',
+    '/assets/images/main/main3.png',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,7 +39,7 @@ const Main1 = () => {
       </div>
 
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex items-center z-20">
-        <img src="/images/main/mouse.png"  alt="마우스커서" />
+        <img src="/assets/images/main/mouse.png"  alt="마우스커서" />
         <p className="ml-3 text-[#666666] text-xl font-semibold">Scroll Down</p>
       </div>
     </div>
