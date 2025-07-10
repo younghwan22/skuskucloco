@@ -10,7 +10,7 @@ const members = [
     role: "대표",
     position: "백엔드",
     generation: "13기",
-    image: "/images/person/한민규.png",
+    image: "/public/assets/images/person/한민규.png",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const members = [
     role: "부대표",
     position: "프론트엔드",
     generation: "13기",
-    image: "/images/person/신민서.png",
+    image: "/public/assets/images/person/신민서.png",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const members = [
     role: "FE 파트장",
     position: "프론트엔드",
     generation: "13기",
-    image: "/images/person/최유정.png",
+    image: "/public/assets/images/person/최유정.png",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const members = [
     role: "BE 파트장",
     position: "백엔드",
     generation: "13기",
-    image: "/images/person/박준범.png",
+    image: "/public/assets/images/person/박준범.png",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const members = [
     role: "디자인 파트장",
     position: "디자인",
     generation: "13기",
-    image: "/images/person/서민주.png",
+    image: "/public/assets/images/person/서민주.png",
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "13기",
-    image: "/images/person/권오현.png",
+    image: "/public/assets/images/person/권오현.png",
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const members = [
     role: "운영진",
     position: "프론트엔드",
     generation: "13기",
-    image: "/images/person/이호연.png",
+    image: "/public/assets/images/person/이호연.png",
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ const members = [
     role: "운영진",
     position: "디자인",
     generation: "13기",
-    image: "/images/person/오한솔.png",
+    image: "/public/assets/images/person/오한솔.png",
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "13기",
-    image: "/images/person/노주희.png",
+    image: "/public/assets/images/person/노주희.png",
   },
   {
     id: 10,
@@ -91,7 +91,7 @@ const members = [
     role: "운영진",
     position: "프론트엔드",
     generation: "13기",
-    image: "/images/person/구혜원.png",
+    image: "/public/assets/images/person/구혜원.png",
   },
 
   // 12기
@@ -102,7 +102,7 @@ const members = [
     role: "대표",
     position: "프론트엔드",
     generation: "12기",
-    image: "/images/person/노승희.png",
+    image: "/public/assets/images/person/노승희.png",
   },
   {
     id: 12,
@@ -111,7 +111,7 @@ const members = [
     role: "부대표",
     position: "백엔드",
     generation: "12기",
-    image: "/images/person/정택원.png",
+    image: "/public/assets/images/person/정택원.png",
   },
   {
     id: 13,
@@ -120,7 +120,7 @@ const members = [
     role: "FE 파트장",
     position: "프론트엔드",
     generation: "12기",
-    image: "/images/person/고창준.png",
+    image: "/public/assets/images/person/고창준.png",
   },
   {
     id: 14,
@@ -129,7 +129,7 @@ const members = [
     role: "BE 파트장",
     position: "백엔드",
     generation: "12기",
-    image: "/images/person/남민지.png",
+    image: "/public/assets/images/person/남민지.png",
   },
   {
     id: 15,
@@ -138,7 +138,7 @@ const members = [
     role: "기획/디자인 파트장",
     position: "기획",
     generation: "12기",
-    image: "/images/person/이원경.png",
+    image: "/public/assets/images/person/이원경.png",
   },
   {
     id: 16,
@@ -147,7 +147,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "12기",
-    image: "/images/person/문호주.png",
+    image: "/public/assets/images/person/문호주.png",
   },
   {
     id: 17,
@@ -156,7 +156,7 @@ const members = [
     role: "운영진",
     position: "프론트엔드",
     generation: "12기",
-    image: "/images/person/김영현.png",
+    image: "/public/assets/images/person/김영현.png",
   },
   {
     id: 18,
@@ -165,7 +165,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "12기",
-    image: "/images/person/한민규.png",
+    image: "/public/assets/images/person/한민규.png",
   },
   {
     id: 19,
@@ -174,7 +174,7 @@ const members = [
     role: "운영진",
     position: "프론트엔드",
     generation: "12기",
-    image: "/images/person/신민서.png",
+    image: "/public/assets/images/person/신민서.png",
   },
   {
     id: 20,
@@ -183,7 +183,7 @@ const members = [
     role: "운영진",
     position: "UX/UI 디자인",
     generation: "12기",
-    image: "/images/person/서민주.png",
+    image: "/public/assets/images/person/서민주.png",
   },
   {
     id: 21,
@@ -192,7 +192,7 @@ const members = [
     role: "운영진",
     position: "운영",
     generation: "12기",
-    image: "/images/person/오한솔.png",
+    image: "/public/assets/images/person/오한솔.png",
   },
 
   // 11기
@@ -203,7 +203,7 @@ const members = [
     role: "대표",
     position: "프론트엔드",
     generation: "11기",
-    image: "/images/person/김현준.png",
+    image: "/public/assets/images/person/김현준.png",
   },
   {
     id: 23,
@@ -212,7 +212,7 @@ const members = [
     role: "부대표",
     position: "백엔드",
     generation: "11기",
-    image: "/images/person/주영민.png",
+    image: "/public/assets/images/person/주영민.png",
   },
   {
     id: 24,
@@ -221,7 +221,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "11기",
-    image: "/images/person/천민우.png",
+    image: "/public/assets/images/person/천민우.png",
   },
   {
     id: 25,
@@ -230,7 +230,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "11기",
-    image: "/images/person/정택원.png",
+    image: "/public/assets/images/person/정택원.png",
   },
   {
     id: 26,
@@ -239,7 +239,7 @@ const members = [
     role: "운영진",
     position: "백엔드",
     generation: "11기",
-    image: "/images/person/남민지.png",
+    image: "/public/assets/images/person/남민지.png",
   },
   {
     id: 27,
@@ -248,7 +248,7 @@ const members = [
     role: "운영진",
     position: "프론트엔드",
     generation: "11기",
-    image: "/images/person/노승희.png",
+    image: "/public/assets/images/person/노승희.png",
   },
   {
     id: 28,
@@ -257,7 +257,7 @@ const members = [
     role: "운영진",
     position: "기획",
     generation: "11기",
-    image: "/images/person/이원경.png",
+    image: "/public/assets/images/person/이원경.png",
   },
 ];
 
@@ -314,7 +314,7 @@ function Team() {
               {/* 이름 + 로고 */}
               <div className="flex items-center justify-center mt-4 whitespace-nowrap">
                 <img
-                  src="/images/logo.png"
+                  src="assets/images/logo.png"
                   alt="logo"
                   className="w-6 h-6 mr-2"
                 />

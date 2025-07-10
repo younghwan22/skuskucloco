@@ -7,70 +7,70 @@ const projects = [
     id: 1, // 고유 ID
     title: "Page", // 프로젝트 제목
     description: "2025년 동아리 연합회 웹사이트", // 프로젝트 설명
-    image: "/images/project/project/Page.png", // 프로젝트 이미지 경로
+    image: "assets/images/main/PAGE.png", // 프로젝트 이미지 경로
     generation: "13기", // 참여 기수
   },
   {
     id: 2,
     title: "퍼즐 물품 대여 서비스",
     description: "동아리원들의 편의성 확대",
-    image: "/images/project/project/Puzzle.png",
+    image: "assets/images/main/PUZZLE.png",
     generation: "12기",
   },
   {
     id: 3,
     title: "보궐선거",
     description: "입후보자 확인 및 투표 독려",
-    image: "/images/project/project/election.png",
+    image: "assets/images/main/VOTE.png",
     generation: "12기",
   },
   {
     id: 4,
     title: "새로운 안녕 문화 HOLA!",
     description: "2024 신입생 오리엔테이션",
-    image: "/images/project/project/hola.png",
+    image: "assets/images/main/HOLA.png",
     generation: "12기",
   },
   {
     id: 5,
     title: "2024 총선거",
     description: "입후보자 확인 및 투표 독려",
-    image: "/images/project/project/election_all.png",
+    image: "assets/images/main/election.png",
     generation: "11기",
   },
   {
     id: 6,
     title: "글LOVER",
     description: "2023 글천절",
-    image: "/images/puzzle.png",
+    image: "assets/images/main/LOVER.png",
     generation: "11기",
   },
   {
     id: 7,
     title: "파동",
     description: "2023 영암체전",
-    image: "/images/puzzle.png",
+    image: "assets/images/main/WAVE.png",
     generation: "11기",
   },
   {
     id: 8,
     title: "SKETCH VILLAGE",
     description: "2023 동아리 페스티벌",
-    image: "/images/project/project/sketchVillage.png",
+    image: "assets/images/main/village.png",
     generation: "11기",
   },
   {
     id: 9,
     title: "졸업학점계산기",
     description: "졸업요건 확인",
-    image: "/images/puzzle.png",
+    image: "assets/images/main/END.png",
     generation: "11기",
   },
   {
     id: 10,
     title: "POOL:US",
     description: "2023 영암축전",
-    image: "/images/project/project/PoolUs.png",
+    image: "assets/images/main/POOLUS.png",
     generation: "11기",
   },
 ];
