@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [trackOpen, setTrackOpen] = useState(false);
@@ -62,8 +63,16 @@ const Header = () => {
                            </div>
                         )}
                     </div>
-                    <a href="https://sku-sku.com/project" className='font-base hover:font-bold text-white transition'>PROJECT</a>
-                    <a href="https://sku-sku.com/teamIntro" className='font-base hover:font-bold text-white transition'>TEAM</a>
+                    <nav>
+                        <Link to="/project" className="font-base hover:font-bold text-white transition">
+                        PROJECT
+                        </Link>
+                        </nav>
+                        <nav>
+                        <Link to="/team" className="font-base hover:font-bold text-white transition">
+                        TEAM
+                        </Link>
+                        </nav>
                     <a href="https://sku-sku.com/contact" className='font-base hover:font-bold text-white transition'>CONTACT</a>
                     <a href="https://sku-sku.com/cyberCampus/Intro" target="_blank" rel="noopener noreferrer" className='font-base hover:font-bold text-white transition'>CYBERCAMPUS</a>
                 </nav>

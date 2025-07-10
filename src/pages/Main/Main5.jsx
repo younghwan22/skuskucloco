@@ -20,7 +20,7 @@ const cardGap = 40;
 const Main5 = () => {
   const [index, setIndex] = useState(visible);
   const slideRef = useRef(null);
-  const transitionTime = 500; // ms
+  const transitionTime = 500; 
 
   const extendedProjects = [
     ...projects.slice(-visible),
@@ -28,7 +28,6 @@ const Main5 = () => {
     ...projects.slice(0, visible),
   ];
 
-  // 무한 캐러셀 타이머
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex(prev => prev + 1);
@@ -36,11 +35,10 @@ const Main5 = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // 무한 캐러셀 트릭
   useEffect(() => {
     if (!slideRef.current) return;
     if (index === extendedProjects.length - visible) {
-      // 마지막에서 transition 끝나고 바로 visible로 점프
+
       setTimeout(() => {
         if (slideRef.current) {
           slideRef.current.style.transition = 'none';

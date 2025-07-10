@@ -8,18 +8,17 @@ const Main3 = () => {
       ref={ref}
       className="relative w-full h-full bg-black overflow-hidden transition-all duration-1000"
     >
-      {/* 검정 오버레이 */}
+
       <div
         className={`absolute inset-0 bg-black z-20 transition-all duration-1000 pointer-events-none ${inView ? 'opacity-0' : 'opacity-100'}`}
       />
-      {/* like lion 이미지: 뒤에 깔리는 배경 역할 */}
+
       <img
         src="/images/main/likelion.png"
         alt="likelion"
         className="absolute bottom-37 left-1/2 -translate-x-1/2 w-1/4 xl:w-1/6 z-0 opacity-200"
       />
 
-      {/* 텍스트 + 스케줄 이미지 */}
       <div className='relative z-10 flex flex-col items-center justify-center w-full py-24 text-center text-[22px] fontRegular'>
         <p className='text-[#3B79FF] font-bold'>Q.</p>
         <p className='text-white font-semibold'>
@@ -37,7 +36,6 @@ const Main3 = () => {
           을 주로 진행합니다.
         </p>
 
-        {/* 스케줄 이미지 */}
         <img
           src="/images/main/schedule.png"
           alt="스케줄"

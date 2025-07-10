@@ -8,7 +8,6 @@ const Main4 = () => {
             ref={ref}
             className={`min-h-screen bg-black text-white relative w-full transition-all duration-1000`}
         >
-            {/* 검정 오버레이 (inView에 따라 트랜지션) */}
             <div className={`absolute inset-0 bg-black z-20 transition-all duration-1000 pointer-events-none ${inView ? 'opacity-0' : 'opacity-100'}`} />
             <div className='flex items-center justify-center flex-col relative z-10'>
                 <p className='text-7xl text-[72px] font-extrabold text-[#3B79FF] mt-[200px]'> TRACKS</p>
@@ -16,7 +15,6 @@ const Main4 = () => {
             </div>
             <div className='container mx-auto xl:w-full xl:px-0 relative z-10'>
                 <div className="grid w-[90%] grid-cols-1 gap-8 xl:grid-cols-3 mt-7 mx-auto">
-                    {/* 프론트엔드 */}
                     <button className="relative group flex flex-col justify-between mx-auto w-[89%] h-[14rem] text-white rounded-md bg-[#666666] hover:bg-[#EE7117] transition-colors duration-300 ">
                         <div className="flex justify-between w-full h-full">
                             <div className="pb-5 pl-8 text-start mr-5">
@@ -43,7 +41,7 @@ const Main4 = () => {
                             </div>
                         </div>
                     </button>
-                    {/* 백엔드 */}
+
                     <button className="relative group flex flex-col justify-between mx-auto w-[89%] h-[14rem] text-white rounded-md bg-[#666666] hover:bg-[#40ACBB] transition-colors duration-300 ">
                         <div className="flex justify-between w-full h-full">
                             <div className="pb-5 pl-8 text-start mr-5">
@@ -70,7 +68,7 @@ const Main4 = () => {
                             </div>
                         </div>
                     </button>
-                    {/* 디자인 */}
+
                     <button className="relative group flex flex-col justify-between mx-auto w-[89%] h-[14rem] text-white rounded-md bg-[#666666] hover:bg-[#FF6F91] transition-colors duration-300 ">
                         <div className="flex justify-between w-full h-full">
                             <div className="pb-5 pl-8 text-start mr-5">
