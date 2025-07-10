@@ -10,7 +10,7 @@ const Main2 = () => {
       className="relative w-full min-h-screen bg-black flex flex-col items-center justify-center px-6 py-12 transition-all duration-1000"
     >
       <img
-        src="/images/main/mainP2.png"
+        src="/assets/images/main/mainP2.png"
         alt="배경"
         className="absolute inset-0 w-full h-full object-cover z-20 pointer-events-none"
         style={{ opacity: 0.9 }} 
@@ -30,19 +30,19 @@ const Main2 = () => {
 
         <div className="flex flex-col md:flex-row justify-center gap-10 mt-10">
           <div className="flex flex-col items-center">
-            <img src="/images/main/icon1.png" alt="자기주도성" className="w-[67px] h-[70px] mb-4" />
+            <img src="/assets/images/main/icon1.png" alt="자기주도성" className="w-[67px] h-[70px] mb-4" />
             <p className="text-xl mb-4 font-semibold text-white" style={{textShadow: '0 1px 8px rgba(0,0,0,0.7)'}}>자기주도성</p>
             <p className="text-lg text-gray-100 mt-2" style={{textShadow: '0 1px 8px rgba(0,0,0,0.7)'}}>나의 커리어를 직접 설계하고, <br />만들어갈 수 있습니다.</p>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/main/icon2.png" alt="협력성" className="w-[130px] h-[57px] mb-4" />
+            <img src="/assets/images/main/icon2.png" alt="협력성" className="w-[130px] h-[57px] mb-4" />
             <p className="text-xl mb-7 font-semibold text-white" style={{textShadow: '0 1px 8px rgba(0,0,0,0.7)'}}>협력성</p>
             <p className="text-lg text-gray-100 mt-2" style={{textShadow: '0 1px 8px rgba(0,0,0,0.7)'}}>동료들과 개발 고민을 공유하며, <br />함께 협력하고 성장솔루션을 찾아볼 수 있습니다.</p>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/main/icon3.png" alt="가능성" className="w-[63px] h-[70px] mb-4" />
+            <img src="/assets/images/main/icon3.png" alt="가능성" className="w-[63px] h-[70px] mb-4" />
             <p className="text-xl mb-4 font-semibold text-white" style={{textShadow: '0 1px 8px rgba(0,0,0,0.7)'}}>가능성</p>
             <p className="text-lg text-gray-100 mt-2" style={{textShadow: '0 1px 8px rgba(0,0,0,0.7)'}}>자신이 꿈꾸던 IT 서비스를 <br /> 구현하는 기회가 제공됩니다.</p>
           </div>

@@ -14,7 +14,7 @@ const Main3 = () => {
       />
 
       <img
-        src="/images/main/likelion.png"
+        src="/assets/images/main/likelion.png"
         alt="likelion"
         className="absolute bottom-37 left-1/2 -translate-x-1/2 w-1/4 xl:w-1/6 z-0 opacity-200"
       />
@@ -37,7 +37,7 @@ const Main3 = () => {
         </p>
 
         <img
-          src="/images/main/schedule.png"
+          src="/assets/images/main/schedule.png"
           alt="스케줄"
           className="w-4/5 xl:w-3/5 mt-16"
         />

@@ -21,7 +21,7 @@ const Main4 = () => {
                                 <div className="group-hover:hidden">
                                     <p className="pt-16 text-[36px] font-bold">프론트엔드</p>
                                     <p className="text-[36px] font-bold">FRONT-END</p>
-                                    <img src="images/main/arrowM.png" className="absolute bottom-0 right-0 w-6 h-6 mr-5 mb-5" alt="" />
+                                    <img src="/assets/images/main/arrowM.png" className="absolute bottom-0 right-0 w-6 h-6 mr-5 mb-5" alt="" />
                                 </div>
                                 <div className="absolute inset-0 hidden group-hover:flex flex-col justify-between pl-8 pr-5 py-5">
                                     <div>
@@ -33,7 +33,7 @@ const Main4 = () => {
                                         </a>
                                     </div>
                                     <img
-                                        src="images/main/arrowB.png"
+                                        src="/assets/images/main/arrowB.png"
                                         className="w-6 h-6 self-end"
                                         alt=""
                                     />
@@ -48,7 +48,7 @@ const Main4 = () => {
                                 <div className="group-hover:hidden">
                                     <p className="pt-16 text-[36px] font-bold">백엔드</p>
                                     <p className="text-[36px] font-bold">BACK-END</p>
-                                    <img src="images/main/arrowM.png" className="absolute bottom-0 right-0 w-6 h-6 mr-5 mb-5" alt="" />
+                                    <img src="/assets/images/main/arrowM.png" className="absolute bottom-0 right-0 w-6 h-6 mr-5 mb-5" alt="" />
                                 </div>
                                 <div className="absolute inset-0 hidden group-hover:flex flex-col justify-between pl-8 pr-5 py-5">
                                     <div>
@@ -60,7 +60,7 @@ const Main4 = () => {
                                         </a>
                                     </div>
                                     <img
-                                        src="images/main/arrowB.png"
+                                        src="/assets/images/main/arrowB.png"
                                         className="w-6 h-6 self-end"
                                         alt=""
                                     />
@@ -75,7 +75,7 @@ const Main4 = () => {
                                 <div className="group-hover:hidden">
                                     <p className="pt-16 text-[36px] font-bold">디자인</p>
                                     <p className="text-[36px] font-bold">DESIGN</p>
-                                    <img src="images/main/arrowM.png" className="absolute bottom-0 right-0 w-6 h-6 mr-5 mb-5" alt="" />
+                                    <img src="/assets/images/main/arrowM.png" className="absolute bottom-0 right-0 w-6 h-6 mr-5 mb-5" alt="" />
                                 </div>
                                 <div className="absolute inset-0 hidden group-hover:flex flex-col justify-between pl-8 pr-5 py-5">
                                     <div>
@@ -87,7 +87,7 @@ const Main4 = () => {
                                         </a>
                                     </div>
                                     <img
-                                        src="images/main/arrowB.png"
+                                        src="/assets/images/main/arrowB.png"
                                         className="w-6 h-6 self-end"
                                         alt=""
                                     />
