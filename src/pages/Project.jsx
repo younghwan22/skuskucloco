@@ -42,14 +42,14 @@ const projects = [
     id: 6,
     title: "글LOVER",
     description: "2023 글천절",
-    image: "/images/puzzle.png",
+    image: "/images/project/project/lover.png",
     generation: "11기",
   },
   {
     id: 7,
     title: "파동",
     description: "2023 영암체전",
-    image: "/images/puzzle.png",
+    image: "/images/project/project/padong.png",
     generation: "11기",
   },
   {
@@ -63,7 +63,7 @@ const projects = [
     id: 9,
     title: "졸업학점계산기",
     description: "졸업요건 확인",
-    image: "/images/puzzle.png",
+    image: "/images/project/project/jolup.png",
     generation: "11기",
   },
   {
